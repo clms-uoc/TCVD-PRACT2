@@ -1,6 +1,6 @@
 # TCVD-PRACT2
 
-> CODE OWNER: Alexandre Sánchez, Miguel Aloy
+> CODE OWNER: Alexandre Sánchez (alexsanchezcasals@uoc.edu), Miguel Aloy (aloy793@hotmail.com)
 
 > disclaimer: Hem observat que el mapa coroplètic no renderitzava correctament dins del notebook al repositori, per això s'ha inclòs com a imatge separada
 
