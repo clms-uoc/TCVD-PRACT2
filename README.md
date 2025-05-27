@@ -30,23 +30,25 @@ El conjunt de dades es troba disponible a [Kaggle: Job Description Dataset](http
 
 Estructura de carpetes del projecte:
 
+```
 TCVD-PRACT2/
 │
 ├── dataset/
-│ ├── glassdoor_jobs_original.csv
-│ ├── glassdoor_jobs_processed.csv
-│ └── supervised-job_description_sample.csv
+│   ├── glassdoor_jobs_original.csv
+│   ├── glassdoor_jobs_processed.csv
+│   └── supervised-job_description_sample.csv
 │
 ├── source/
-│ ├── data_processing.ipynb # Neteja, codificació i visualitzacions
-│ ├── non-supervised_algorithm.ipynb # Algorismes no supervisats (clustering, etc.)
-│ └── supervised_algorithm.ipynb # Models supervisats (regressió de salaris)
+│   ├── data_processing.ipynb              # Neteja, codificació i visualitzacions
+│   ├── non-supervised_algorithm.ipynb     # Algorismes no supervisats (clustering, etc.)
+│   └── supervised_algorithm.ipynb         # Models supervisats (regressió de salaris)
 │
 ├── .gitignore
 ├── .gitattributes
 ├── LICENSE
-└── README.md
+├── README.md
 └── mapa_coropletic_ofertes_per_pais.png
+```
 
 
 ## 🔧 Requisits
