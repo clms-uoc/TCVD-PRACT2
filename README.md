@@ -57,6 +57,7 @@ TCVD-PRACT2/
 ## 🔧 Requisits
 
 ### 📊 No supervisat:
+```
 - pandas
 - re
 - sklearn
@@ -64,8 +65,10 @@ TCVD-PRACT2/
 - seaborn
 - rapidfuzz
 - itertools
+```
 
 ### 📈 Supervisat:
+```
 - polars
 - pathlib
 - plotly
@@ -75,6 +78,7 @@ TCVD-PRACT2/
 - sentence_transformers
 - scikit-learn
 - xgboost
+```
 
 
 ## ⚙️ Execució
