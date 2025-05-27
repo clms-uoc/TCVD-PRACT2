@@ -33,22 +33,24 @@ Estructura de carpetes del projecte:
 ```
 TCVD-PRACT2/
 │
-├── dataset/                                # carpeta amb els conjunts de dades
-│   ├── glassdoor_jobs_original.csv         # Dades del dataset original en brut recollides de Glassdoor
-│   ├── glassdoor_jobs_processed.csv        # Dades del dataset original després de processades i netejades
-│   ├── supervised-job_description_sample.csv  # Subconjunt del dataset de Kaggle per entrenar models supervisats
-│   └── non-supervised-job_description_sample.csv  # Subconjunt del dataset de Kaggle per entrenar models no supervisats
+├── dataset/                                        # carpeta amb els conjunts de dades
+│   ├── glassdoor_jobs_original.csv                 # Dades del dataset original en brut recollides de Glassdoor
+│   ├── glassdoor_jobs_processed.csv                # Dades del dataset original després de processades i netejades
+│   ├── supervised-job_description_sample.csv       # Subconjunt del dataset de Kaggle per entrenar models supervisats
+│   └── non-supervised-job_description_sample.csv   # Subconjunt del dataset de Kaggle per entrenar models no supervisats
+│   └── hipotesis_test-job_description_sample.csv   # Subconjunt del dataset de Kaggle per executar el test d'hipotesi
 │
-├── source/                                 # scripts amb els algorismes i processament
-│   ├── data_processing.ipynb               # Script de preprocesament de les dades originals. No usat en els algorismes finals
-│   ├── non-supervised_algorithm.ipynb      # Implementació d’un algorisme no supervisat (ex: KMeans) per agrupar perfils professionals
-│   └── supervised_algorithm.ipynb          # Model de regressió per predir el salari
+├── source/                                         # scripts amb els algorismes i processament
+│   ├── data_processing.ipynb                       # Script de preprocesament de les dades originals. No usat en els algorismes finals
+│   ├── non-supervised_algorithm.ipynb              # Implementació d’un algorisme no supervisat (ex: KMeans) per agrupar perfils professionals
+│   └── supervised_algorithm.ipynb                  # Implementació dels models de regressió per predir el salari
+│   └── test_hipotesi.ipynb                         # Aplicació del test d'hipotesi
 │
-├── .gitignore                              # Fitxer de configuració per ignorar arxius al repositori Git
-├── .gitattributes                          # Fitxer de configuració per afegir fitxers grans mitjançant Git LFS
-├── LICENSE                                 # Informació sobre la llicència
-├── README.md                               # Documentació general del projecte
-└── mapa_coropletic_ofertes_per_pais.png   # Visualització dinàmica de l'algorisme supervisat, afegida com a imatge separada
+├── .gitignore                                      # Fitxer de configuració per ignorar arxius al repositori Git
+├── .gitattributes                                  # Fitxer de configuració per afegir fitxers grans mitjançant Git LFS
+├── LICENSE                                         # Informació sobre la llicència
+├── README.md                                       # Documentació general del projecte
+└── mapa_coropletic_ofertes_per_pais.png            # Visualització dinàmica de l'algorisme supervisat, afegida com a imatge separada
 ```
 
 
