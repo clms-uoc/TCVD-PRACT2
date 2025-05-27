@@ -33,21 +33,22 @@ Estructura de carpetes del projecte:
 ```
 TCVD-PRACT2/
 │
-├── dataset/
-│   ├── glassdoor_jobs_original.csv
-│   ├── glassdoor_jobs_processed.csv
-│   └── supervised-job_description_sample.csv
+├── dataset/                                # carpeta amb els conjunts de dades
+│   ├── glassdoor_jobs_original.csv         # Dades del dataset original en brut recollides de Glassdoor
+│   ├── glassdoor_jobs_processed.csv        # Dades del dataset original després de processades i netejades
+│   ├── supervised-job_description_sample.csv  # Subconjunt del dataset de Kaggle per entrenar models supervisats
+│   └── non-supervised-job_description_sample.csv  # Subconjunt del dataset de Kaggle per entrenar models no supervisats
 │
-├── source/
-│   ├── data_processing.ipynb              # Neteja, codificació i visualitzacions
-│   ├── non-supervised_algorithm.ipynb     # Algorismes no supervisats (clustering, etc.)
-│   └── supervised_algorithm.ipynb         # Models supervisats (regressió de salaris)
+├── source/                                 # scripts amb els algorismes i processament
+│   ├── data_processing.ipynb               # Script de preprocesament de les dades originals. No usat en els algorismes finals
+│   ├── non-supervised_algorithm.ipynb      # Implementació d’un algorisme no supervisat (ex: KMeans) per agrupar perfils professionals
+│   └── supervised_algorithm.ipynb          # Model de regressió per predir el salari
 │
-├── .gitignore
-├── .gitattributes
-├── LICENSE
-├── README.md
-└── mapa_coropletic_ofertes_per_pais.png
+├── .gitignore                              # Fitxer de configuració per ignorar arxius al repositori Git
+├── .gitattributes                          # Fitxer de configuració per afegir fitxers grans mitjançant Git LFS
+├── LICENSE                                 # Informació sobre la llicència
+├── README.md                               # Documentació general del projecte
+└── mapa_coropletic_ofertes_per_pais.png   # Visualització dinàmica de l'algorisme supervisat, afegida com a imatge separada
 ```
 
 
