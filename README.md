@@ -2,6 +2,8 @@
 
 > CODE OWNER: Alexandre Sánchez, Miguel Aloy
 
+> disclaimer: Hem observat que el mapa coroplètic no renderitzava correctament dins del notebook al repositori, per això s'ha inclòs com a imatge separada
+
 Repositori per a la pràctica 2 de **Tipologia i Cicle de Vida de les Dades** del *Màster Universitari en Ciència de Dades* de la **Universitat Oberta de Catalunya (UOC)**.
 
 ## :scroll: Dataset utilitzat
@@ -23,6 +25,7 @@ Els objectius inclouen:
 
 El conjunt de dades es troba disponible a [Kaggle: Job Description Dataset](https://www.kaggle.com/datasets/ravindrasinghrana/job-description-dataset?resource=download&select=job_descriptions.csv).
 
+
 ## 📦 Contingut
 
 Estructura de carpetes del projecte:
@@ -43,10 +46,8 @@ TCVD-PRACT2/
 ├── .gitattributes
 ├── LICENSE
 └── README.md
+└── mapa_coropletic_ofertes_per_pais.png
 
-markdown
-Copia
-Modifica
 
 ## 🔧 Requisits
 
